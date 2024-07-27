@@ -1,4 +1,5 @@
-package master;
+package sequential_multi_threaded;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
