@@ -58,7 +58,7 @@ In this approach, a message is sent in a chain-like manner through multiple work
 #### 1. Clone the Repository
  - If you haven't already, clone the repository to your local machine:
 
-   ```git clone https://github.com/yourusername/distributed-pingpong-system.git```
+   ```git clone https://github.com/andreisacal/SE-Distributed-System.git```
 #### 2. Navigate to the Directory
  - Go to the directory containing the Java files e.g.
 
