@@ -1,4 +1,4 @@
-# SE-Distributed Ping-Pong System
+# Software Engineering Distributed Ping-Pong System
 
 ## 🚀 Introduction:
 
