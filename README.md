@@ -1,2 +1,3 @@
-# SE-Distributed-System
-SE-Distributed Ping-Pong System
+# SE-Distributed Ping-Pong System
+
+sample...
