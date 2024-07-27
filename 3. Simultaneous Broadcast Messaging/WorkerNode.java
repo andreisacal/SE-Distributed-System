@@ -1,4 +1,5 @@
-package worker;
+package simultaneous_broadcast;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
