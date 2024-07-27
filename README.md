@@ -49,22 +49,5 @@ In this approach, a message is sent in a chain-like manner through multiple work
 
   This approach demonstrates message passing through a sequence of nodes and illustrates a chain communication pattern.
 
-## 🏗️ Components
-### Master Node
-The master node manages communication and handles different messaging patterns based on the approach:
-
-  - Basic Single-Threaded Communication: Communicates with a single worker.
-  - Sequential Multi-Threaded Communication: Communicates with multiple workers sequentially.
-  - Simultaneous Broadcast Messaging: Sends a broadcast message to multiple workers.
-  - Chain Message Passing: Initiates a chain message passing through all worker nodes.
-
-### Worker Node
-Worker nodes receive messages from the master node and respond according to the messaging pattern:
-
-  - Basic Single-Threaded Communication: Responds to a "ping" message.
-  - Sequential Multi-Threaded Communication: Responds to a "ping" message and sends a response in sequence.
-  - Simultaneous Broadcast Messaging: Responds to a "broadcast" message.
-  - Chain Message Passing: Appends its name to the chain message and forwards it to the next worker or sends the final response back to the master.
-
 ## 📜 Setup and Execution
 ### Prerequisites
