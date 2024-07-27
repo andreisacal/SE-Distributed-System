@@ -1,7 +1,7 @@
 /* This script sets up a server socket to listen for incoming connections. It accepts connections, reads a "ping" message from the master node, responds with "pong" and then closes the connection. 
 The server continues to listen for new connections in an infinite loop */
 
-package basic_single_threaded;
+package basic_single_threaded;    //Declarethe package name, grouping related classes together
 
 import java.io.BufferedReader;    //Import BufferedReader to reading data from the input stream
 import java.io.BufferedWriter;    //Import BufferedWriter to write data to the output stream
