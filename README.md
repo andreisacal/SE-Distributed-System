@@ -112,7 +112,8 @@ While this project covers essential distributed communication strategies, there 
 
 1. https://www.geeksforgeeks.org/what-is-a-distributed-system/
 2. https://www.geeksforgeeks.org/how-to-build-a-distributed-system/
-3. https://medium.com/javarevisited/distributed-systems-in-java-an-overview-ea1d6db47f86
-4. https://www.geeksforgeeks.org/simple-chat-application-using-sockets-in-java/
-5. https://www.geeksforgeeks.org/multithreaded-servers-in-java/
-6. https://youtu.be/gchR3DpY-8Q?si=2yLbTn-aza_JFi0n
+3. https://www.freecodecamp.org/news/distributed-systems-when-you-should-build-them-and-how-to-scale-a-step-by-step-guide-37e76a177218/
+4. https://medium.com/javarevisited/distributed-systems-in-java-an-overview-ea1d6db47f86
+5. https://www.geeksforgeeks.org/simple-chat-application-using-sockets-in-java/
+6. https://www.geeksforgeeks.org/multithreaded-servers-in-java/
+7. https://youtu.be/gchR3DpY-8Q?si=2yLbTn-aza_JFi0n
