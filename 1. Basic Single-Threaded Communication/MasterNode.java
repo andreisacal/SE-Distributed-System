@@ -30,27 +30,8 @@ public class MasterNode {
             // Optionally, close connection after receiving response
             socket.close();
         } catch (IOException e) {
+            System.out.println("Failed to connect to worker on port 1234");
             e.printStackTrace();
-        } finally {
-            try {
-                if (socket != null) {
-                    socket.close();
-                }
-                if (inputStreamReader != null) {
-                    inputStreamReader.close();
-                }
-                if (outputStreamWriter != null) {
-                    outputStreamWriter.close();
-                }
-                if (bufferedReader != null) {
-                    bufferedReader.close();
-                }
-                if (bufferedWriter != null) {
-                    bufferedWriter.close();
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
         }
     }
 }
