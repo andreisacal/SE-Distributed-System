@@ -1,4 +1,4 @@
-# Software Engineering Distributed Ping-Pong System
+# Software Engineering Distributed System
 
 ## 🚀 Introduction:
 
