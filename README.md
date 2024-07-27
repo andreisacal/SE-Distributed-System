@@ -76,10 +76,15 @@ In this approach, a message is sent in a chain-like manner through multiple work
    ```javac -d . MasterNode.java WorkerNode.java```
   - This command will compile the files and place the .class files in the appropriate directory structure based on the package statements:
 #### 4. Start the Worker Node
- - Open a terminal or command prompt window and navigate to the same directory (1 Basic Single-Threaded Communication). Run the Worker Node:
-
-   ```java basic_single_threaded.WorkerNode```
- - This starts the Worker Node, which will listen for incoming connections on the defined port
+ - Open a terminal or command prompt window and navigate to the desired directory. For each communication approach, use the corresponding command:
+   1. Basic Single-Threaded Communication: ```java basic_single_threaded.WorkerNode```
+   2. Sequential Multi-Threaded Communication: ```java sequential_multi_threaded.WorkerNode 1024```
+       - Launch each Worker Node on a separate terminal window, incrementing the port number for each worker (e.g., 1024, 1025, etc.)
+   3. Simultaneous Broadcast Messaging:  ```java simultaneous_broadcast.WorkerNode 1024```
+       - As with the previous setup, assign unique port numbers for each worker instance
+   4. Chain Message Passing: ```java chain_message.WorkerNode 1024 2```
+       - The first argument is the starting port number and the second argument specifies the total number of workers. Ensure each worker runs on a unique port.
+ - Starting the Worker Node will make it listen for incoming connections on the specified port, ready to communicate with the Master Node
 #### 5. Start the Master Node
  - Open another terminal or command prompt window. Navigate to the same directory and run the Master Node:
 
