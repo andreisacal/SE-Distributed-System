@@ -50,4 +50,31 @@ In this approach, a message is sent in a chain-like manner through multiple work
   This approach demonstrates message passing through a sequence of nodes and illustrates a chain communication pattern.
 
 ## 📜 Setup and Execution
-### Prerequisites
+### Prerequisites ☕
+ - Java Development Kit (JDK)
+
+### Running the System 🐙
+
+#### 1. Clone the Repository
+ - If you haven't already, clone the repository to your local machine:
+
+   ```git clone https://github.com/yourusername/distributed-pingpong-system.git```
+#### 2. Navigate to the Directory
+ - Go to the directory containing the Java files e.g.
+
+   ```cd distributed-pingpong-system/SE-Distributed-System/1.\ Basic\ Single-Threaded\ Communication```
+#### 3. Compile the Java Files
+ - Compile the MasterNode.java and WorkerNode.java files. Run the following command from the directory where the Java files are located:
+
+   ```javac -d . MasterNode.java WorkerNode.java```
+  - This command will compile the files and place the .class files in the appropriate directory structure based on the package statements:
+#### 4. Start the Worker Node
+ - Open a terminal or command prompt window and navigate to the same directory (1 Basic Single-Threaded Communication). Run the Worker Node:
+
+   ```java basic_single_threaded.WorkerNode```
+ - This starts the Worker Node, which will listen for incoming connections on the defined port
+#### 5. Start the Master Node
+ - Open another terminal or command prompt window. Navigate to the same directory and run the Master Node:
+
+   ```java basic_single_threaded.MasterNode```
+ - The Master Node will connect to the Worker Node on the defined port, send a "ping" message and wait for a "pong" response.
