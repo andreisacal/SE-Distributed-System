@@ -106,8 +106,13 @@ While this project covers essential distributed communication strategies, there 
  - Introduce techniques for dynamic scaling of worker nodes and efficiently handle various workloads to improve system performance under high demand.
  - Security Enhancements: Implement security measures such as data encryption, secure authentication and authorisation to protect data integrity and prevent unauthorised access.
  - Integration with Message Queues: Implement and explore message queues and streaming platforms like Apache Kafka and RabbitMQ. These technologies can improve the scalability, reliability, and decoupling of components in a distributed system, allowing for efficient handling of high-throughput data streams and complex message routing patterns.
+ - Real-World Applications: Apply these concepts to real-world applications, such as chat/notification systems, IoT systems, distributed data processing tasks and applications that require real-time collaboration.
 
 ## 📝 References
 
-1. https://medium.com/javarevisited/distributed-systems-in-java-an-overview-ea1d6db47f86
-2. 
+1. https://www.geeksforgeeks.org/what-is-a-distributed-system/
+2. https://www.geeksforgeeks.org/how-to-build-a-distributed-system/
+3. https://medium.com/javarevisited/distributed-systems-in-java-an-overview-ea1d6db47f86
+4. https://www.geeksforgeeks.org/simple-chat-application-using-sockets-in-java/
+5. https://www.geeksforgeeks.org/multithreaded-servers-in-java/
+6. https://youtu.be/gchR3DpY-8Q?si=2yLbTn-aza_JFi0n
