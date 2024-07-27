@@ -62,7 +62,14 @@ In this approach, a message is sent in a chain-like manner through multiple work
 #### 2. Navigate to the Directory
  - Go to the directory containing the Java files e.g.
 
-   ```cd distributed-pingpong-system/SE-Distributed-System/1.\ Basic\ Single-Threaded\ Communication```
+   ```cd SE-Distributed-System/1.\ Basic\ Single-Threaded\ Communication```
+   
+   ```cd SE-Distributed-System/2.\ Sequential\ Multi-Threaded\ Communication```
+   
+   ```cd SE-Distributed-System/3.\ Simultaneous\ Broadcast\ Messaging```
+   
+   ```cd SE-Distributed-System/4.\ Chain\ Message\ Passing```
+   
 #### 3. Compile the Java Files
  - Compile the MasterNode.java and WorkerNode.java files. Run the following command from the directory where the Java files are located:
 
