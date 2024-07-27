@@ -87,6 +87,12 @@ In this approach, a message is sent in a chain-like manner through multiple work
  - Starting the Worker Node will make it listen for incoming connections on the specified port, ready to communicate with the Master Node
 #### 5. Start the Master Node
  - Open another terminal or command prompt window. Navigate to the same directory and run the Master Node:
-
-   ```java basic_single_threaded.MasterNode```
- - The Master Node will connect to the Worker Node on the defined port, send a "ping" message and wait for a "pong" response.
+   1. Basic Single-Threaded Communication: ```java basic_single_threaded.MasterNode```
+   2. Sequential Multi-Threaded Communication: ```java sequential_multi_threaded.MasterNode```
+       - The master node will prompt you to enter the number of workers to connect. Enter the number that corresponds to the number of worker instances you started.
+   3. Simultaneous Broadcast Messaging:  ```java simultaneous_broadcast.MasterNode```
+       - As with the previous setup, the master node will prompt you to enter the number of workers to connect.
+   4. Chain Message Passing: ```java chain_message.MasterNode```
+       - This will initiate the chain message passing process.
+#### 6. Verify the Output
+ - Check the output on the master and worker terminals to ensure messages are sent and received correctly
