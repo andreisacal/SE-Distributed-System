@@ -96,3 +96,18 @@ In this approach, a message is sent in a chain-like manner through multiple work
        - This will initiate the chain message passing process.
 #### 6. Verify the Output
  - Check the output on the master and worker terminals to ensure messages are sent and received correctly
+
+## ✍️ Conclusion & Future Work
+
+The system demonstrates fundamental principles of distributed systems using Java. This project includes various communication strategies between a master node and worker nodes, showcasing different methods such as single-threaded communication, multi-threaded sequential processing, broadcast messaging and chain message passing. Each approach provides unique insights into handling tasks, message passing, and synchronization in a distributed environment.
+
+While this project covers essential distributed communication strategies, there are several areas for future exploration and enhancement:
+ - Error Handling and Robustness: Enhance the system's resilience by implementing comprehensive error handling, fault tolerance mechanisms, and automatic recovery from network failures or node crashes.
+ - Introduce techniques for dynamic scaling of worker nodes and efficiently handle various workloads to improve system performance under high demand.
+ - Security Enhancements: Implement security measures such as data encryption, secure authentication and authorisation to protect data integrity and prevent unauthorised access.
+ - Integration with Message Queues: Implement and explore message queues and streaming platforms like Apache Kafka and RabbitMQ. These technologies can improve the scalability, reliability, and decoupling of components in a distributed system, allowing for efficient handling of high-throughput data streams and complex message routing patterns.
+
+## 📝 References
+
+1. https://medium.com/javarevisited/distributed-systems-in-java-an-overview-ea1d6db47f86
+2. 
