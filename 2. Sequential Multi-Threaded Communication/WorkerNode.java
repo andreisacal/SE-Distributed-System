@@ -2,11 +2,11 @@
 Upon accepting a connection, it reads a "ping" message from the master node, responds with a "pong" message and then closes the connection and associated resources. 
 It also manages potential I/O errors during this process. */
 
-package sequential_multi_threaded;    //Declarethe package name, grouping related classes together
+package sequential_multi_threaded;    //Declare the package name, grouping related classes together
 
-import java.io.BufferedReader;    //Import BufferedReader to reading data from the input stream
+import java.io.BufferedReader;    //Import BufferedReader to read data from the input stream
 import java.io.BufferedWriter;    //Import BufferedWriter to write data to the output stream
-import java.io.IOException;    //Import IOException for handling I/O errors
+import java.io.IOException;    //Import IOException to handle I/O errors
 import java.io.InputStreamReader;    //Import InputStreamReader to read bytes and decode them into characters
 import java.io.OutputStreamWriter;    //Import OutputStreamWriter to write characters to the output stream
 import java.net.Socket;    //Import Socket to establish a connection to the worker node
