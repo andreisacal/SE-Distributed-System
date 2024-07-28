@@ -1,11 +1,11 @@
 /* The MasterNode script initialises network resources and prompts the user to specify the number of worker nodes to connect with, ensuring the number falls within a valid range. 
 It then iterates through each worker node by creating a socket connection, sending a "ping" message and printing the "pong" response received from each worker */
 
-package sequential_multi_threaded;    //Declarethe package name, grouping related classes together
+package sequential_multi_threaded;    //Declare the package name, grouping related classes together
 
-import java.io.BufferedReader;    //Import BufferedReader to reading data from the input stream
+import java.io.BufferedReader;    //Import BufferedReader to read data from the input stream
 import java.io.BufferedWriter;    //Import BufferedWriter to write data to the output stream
-import java.io.IOException;    //Import IOException for handling I/O errors
+import java.io.IOException;    //Import IOException to handle I/O errors
 import java.io.InputStreamReader;    //Import InputStreamReader to read bytes and decode them into characters
 import java.io.OutputStreamWriter;    //Import OutputStreamWriter to write characters to the output stream
 import java.net.Socket;    //Import Socket to establish a connection to the worker node
