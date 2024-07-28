@@ -111,11 +111,13 @@ These challenges not only reinforced my technical skills but also highlighted th
 The system demonstrates fundamental principles of distributed systems using Java. This project includes various communication strategies between a master node and worker nodes, showcasing different methods such as single-threaded communication, multi-threaded sequential processing, broadcast messaging and chain message passing. Each approach provides unique insights into handling tasks, message passing, and synchronization in a distributed environment.
 
 While this project covers essential distributed communication strategies, there are several areas for future exploration and enhancement:
- - Error Handling and Robustness: Enhance the system's resilience by implementing comprehensive error handling, fault tolerance mechanisms, and automatic recovery from network failures or node crashes.
- - Introduce techniques for dynamic scaling of worker nodes and efficiently handle various workloads to improve system performance under high demand.
- - Security Enhancements: Implement security measures such as data encryption, secure authentication and authorisation to protect data integrity and prevent unauthorised access.
- - Integration with Message Queues: Implement and explore message queues and streaming platforms like Apache Kafka and RabbitMQ. These technologies can improve the scalability, reliability, and decoupling of components in a distributed system, allowing for efficient handling of high-throughput data streams and complex message routing patterns.
- - Real-World Applications: Apply these concepts to real-world applications, such as chat/notification systems, IoT systems, distributed data processing tasks and applications that require real-time collaboration.
+ - Unified Communication Patterns: Given more time, the project would be enhanced to integrate all four communication patterns into a single system. This would allow the user to select the desired communication pattern, without needing to relaunch the terminals for each test. This integrated approach would simplify the testing process and make the system more versatile and user friendly.
+ - Automated Worker Discovery: In the current implementation of the "Round-Robin Messaging" task, users must manually input the total number of workers when launching each worker node. Future work will focus on eliminating this manual step by developing a solution where the master and worker nodes automatically discover and keep track of the total number of workers in the system.
+ - Error Handling and Robustness: Enhance the system by implementing comprehensive error handling, fault tolerance mechanisms and automatic recovery from node crashes.
+ - Scalability: Introduce techniques for scaling of worker nodes and efficiently handle various workloads to improve system performance under high demand.
+ - Security Enhancements: Implement security measures such as data encryption and secure authentication to protect data integrity and prevent unauthorised access.
+ - Integration with Message Queues: Implement and explore message queues and streaming platforms like Apache Kafka and RabbitMQ. These technologies can improve the scalability and reliability allowing for efficient handling of high-throughput data streams and complex message routing patterns.
+ - Real World Applications: Apply these concepts to real-world applications, such as chat/notification systems, IoT systems, distributed data processing tasks and applications that require real-time collaboration.
 
 ## 📝 References
 
