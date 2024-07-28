@@ -97,6 +97,15 @@ In this approach, a message is sent in a chain-like manner through multiple work
 #### 6. Verify the Output
  - Check the output on the master and worker terminals to ensure messages are sent and received correctly
 
+## 🚧 Challenges
+
+Working on this distributed system project presented several challenges that provided valuable learning experiences:
+
+ - After primarily using Python and SQL during my time as a Cloud Support Engineer at AWS, revisiting Java which I extensively used during my college years was a challenge. This involved re-familiarising myself with Java syntax, libraries and best practices.
+ - Ensuring reliable communication between master and worker nodes, especially in a multi-threaded environment required handling potential issues like socket connection issues.
+
+These challenges not only reinforced my technical skills but also highlighted the importance of adaptability and continuous learning in the ever-evolving field of data engineering.
+
 ## ✍️ Conclusion & Future Work
 
 The system demonstrates fundamental principles of distributed systems using Java. This project includes various communication strategies between a master node and worker nodes, showcasing different methods such as single-threaded communication, multi-threaded sequential processing, broadcast messaging and chain message passing. Each approach provides unique insights into handling tasks, message passing, and synchronization in a distributed environment.
