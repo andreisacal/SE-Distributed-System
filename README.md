@@ -4,6 +4,19 @@
 
 Welcome to the Distributed Ping-Pong System project! This project involves creating a distributed system using Java with a master node and multiple worker nodes. The system demonstrates different communication patterns and approaches. Below is an overview of the implementation and instructions for running the system.
 
+### What is a Distributed System and Why Do We Need It?
+
+A distributed system is a network of independent computers that work together to achieve a common goal. These systems distribute computational tasks across multiple nodes, which may be located in different physical locations, to provide high availability, fault tolerance, and scalability.
+
+The need for distributed systems arises from the limitations of single-machine systems, particularly in handling large-scale data, high concurrency and the requirement for reliable and continuous service. Distributed systems offer several advantages, including improved performance by leveraging parallel processing, greater reliability through redundancy and the ability to scale out by adding more nodes as demand increases.
+
+Examples of distributed systems in today's world include:
+ - Services like Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform provide scalable infrastructure and computing resources on demand, leveraging distributed systems to manage resources efficiently.
+ - Companies like Akamai and Cloudflare use distributed systems to deliver content quickly and reliably to users around the world by caching copies of data across multiple servers.
+ - Systems like Apache Cassandra, MongoDB, and Google Spanner provide scalable and fault-tolerant data storage by distributing data across multiple servers.
+
+These systems are crucial in supporting the modern digital infrastructure, enabling services that require large-scale data processing, global accessibility, and high availability.
+
 ## 🔍 Project Overview:
 
 The system is designed to showcase various messaging patterns in a distributed environment:
