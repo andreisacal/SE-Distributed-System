@@ -2,7 +2,7 @@
 
 ## 🚀 Introduction:
 
-Welcome to the Distributed Ping-Pong System project! This assignment involves creating a distributed system using Java with a master node and multiple worker nodes. The system demonstrates different communication patterns and approaches. Below is an overview of the implementation and instructions for running the system.
+Welcome to the Distributed Ping-Pong System project! This project involves creating a distributed system using Java with a master node and multiple worker nodes. The system demonstrates different communication patterns and approaches. Below is an overview of the implementation and instructions for running the system.
 
 ## 🔍 Project Overview:
 
