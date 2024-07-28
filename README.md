@@ -121,10 +121,15 @@ While this project covers essential distributed communication strategies, there 
 
 ## 📝 References
 
-1. https://www.geeksforgeeks.org/what-is-a-distributed-system/
-2. https://www.geeksforgeeks.org/how-to-build-a-distributed-system/
-3. https://www.freecodecamp.org/news/distributed-systems-when-you-should-build-them-and-how-to-scale-a-step-by-step-guide-37e76a177218/
-4. https://medium.com/javarevisited/distributed-systems-in-java-an-overview-ea1d6db47f86
-5. https://www.geeksforgeeks.org/simple-chat-application-using-sockets-in-java/
-6. https://www.geeksforgeeks.org/multithreaded-servers-in-java/
-7. https://youtu.be/gchR3DpY-8Q?si=2yLbTn-aza_JFi0n
+1. https://info.microsoft.com/rs/157-GQE-382/images/EN-CNTNT-eBook-DesigningDistributedSystems.pdf
+2. https://komputasi.wordpress.com/wp-content/uploads/2018/03/mvsteen-distributed-systems-3rd-preliminary-version-3-01pre-2017-170215.pdf
+3. https://www.geeksforgeeks.org/what-is-a-distributed-system/
+4. https://www.geeksforgeeks.org/how-to-build-a-distributed-system/
+5. https://www.freecodecamp.org/news/distributed-systems-when-you-should-build-them-and-how-to-scale-a-step-by-step-guide-37e76a177218/
+6. https://medium.com/javarevisited/distributed-systems-in-java-an-overview-ea1d6db47f86
+7. https://www.geeksforgeeks.org/simple-chat-application-using-sockets-in-java/
+8. https://www.geeksforgeeks.org/multithreaded-servers-in-java/
+9. https://youtu.be/gchR3DpY-8Q?si=2yLbTn-aza_JFi0n
+10. https://www.jsums.edu/nmeghanathan/files/2015/05/CSC437-Fall2013-Java-Socket-Programming-Manual.pdf
+11. https://jmvidal.cse.sc.edu/csce590/spring02/j-sockets-ltr.pdf
+12. https://www.cesarkallas.net/arquivos/livros/informatica/java/OReilly%20-%20Java%20Network%20Programming%202ed.pdf
