@@ -19,14 +19,14 @@ In this approach, the master node communicates with a single worker node in a st
 This approach is simple and demonstrates basic client-server communication.
 
 ### 2. Sequential Multi-Threaded Communication - 1 Master & Multiple Workers 🔄
-This approach involves a single master node communicating with multiple worker nodes, but in a sequential manner:
+This approach involves a single master node communicating with multiple worker nodes in a sequential manner:
 
 <img width="277" alt="Screenshot_1" src="https://github.com/user-attachments/assets/25dc7b3c-49d4-4930-aaa2-907e2b1e6264">
 
   - Master Node: Iterates through a list of worker nodes, sending a "ping" message to each one sequentially.
   - Worker Nodes: Each worker responds with a "pong" message.
 
-  While the master communicates with each worker node one by one, it demonstrates handling multiple workers sequentially.
+  While the master communicates with each worker node one by one, it demonstrates handling multiple workers.
 
 ### 3. Simultaneous Broadcast Messaging - 1 Master & Multiple Workers 📢
 Here, the master node sends a broadcast message to all worker nodes simultaneously:
@@ -79,7 +79,7 @@ In this approach, a message is sent in a chain-like manner through multiple work
  - Open a terminal or command prompt window and navigate to the desired directory. For each communication approach, use the corresponding command:
    1. Basic Single-Threaded Communication: ```java basic_single_threaded.WorkerNode```
    2. Sequential Multi-Threaded Communication: ```java sequential_multi_threaded.WorkerNode 1024```
-       - Launch each Worker Node on a separate terminal window, incrementing the port number for each worker (e.g., 1024, 1025, etc.)
+       - Launch each Worker Node on a separate terminal window, incrementing the port number for each worker (e.g., 1024, 1025, 1026, etc.)
    3. Simultaneous Broadcast Messaging:  ```java simultaneous_broadcast.WorkerNode 1024```
        - As with the previous setup, assign unique port numbers for each worker instance
    4. Chain Message Passing: ```java chain_message.WorkerNode 1024 2```
@@ -95,25 +95,25 @@ In this approach, a message is sent in a chain-like manner through multiple work
    4. Chain Message Passing: ```java chain_message.MasterNode```
        - This will initiate the chain message passing process.
 #### 6. Verify the Output
- - Check the output on the master and worker terminals to ensure messages are sent and received correctly
+ - Check the output on the master and worker terminals to ensure messages are sent and received correctly.
 
 ## 🚧 Challenges
 
 Working on this distributed system project presented several challenges that provided valuable learning experiences:
 
- - After primarily using Python and SQL during my time as a Cloud Support Engineer at AWS, revisiting Java which I extensively used during my college years was a challenge. This involved re-familiarising myself with Java syntax, libraries and best practices.
+ - After primarily using Python and SQL during my time as a Cloud Support Engineer at AWS, revisiting Java which I extensively used during my college years presented a challenge of it's own. This involved re-familiarising myself with Java syntax, libraries and best practices.
  - Ensuring reliable communication between master and worker nodes, especially in a multi-threaded environment required handling potential issues like socket connection issues.
 
-These challenges not only reinforced my technical skills but also highlighted the importance of adaptability and continuous learning in the ever-evolving field of data engineering.
+These challenges not only reinforced my technical skills but also highlighted the importance of adaptability and continuous learning in the ever evolving field of data engineering.
 
 ## ✍️ Conclusion & Future Work
 
-The system demonstrates fundamental principles of distributed systems using Java. This project includes various communication strategies between a master node and worker nodes, showcasing different methods such as single-threaded communication, multi-threaded sequential processing, broadcast messaging and chain message passing. Each approach provides unique insights into handling tasks, message passing, and synchronization in a distributed environment.
+The system demonstrates fundamental principles of distributed systems using Java. This project includes various communication strategies between a master node and worker nodes, showcasing different methods such as single-threaded communication, multi-threaded sequential processing, broadcast messaging and chain message passing. Each approach provides unique insights into handling tasks, message passing and synchronisation in a distributed environment.
 
 While this project covers essential distributed communication strategies, there are several areas for future exploration and enhancement:
  - Unified Communication Patterns: Given more time, the project would be enhanced to integrate all four communication patterns into a single system. This would allow the user to select the desired communication pattern, without needing to relaunch the terminals for each test. This integrated approach would simplify the testing process and make the system more versatile and user friendly.
- - Automated Worker Discovery: In the current implementation of the "Round-Robin Messaging" task, the user must manually input the total number of workers when launching each worker node. Future work will focus on eliminating this manual step by developing a solution where the master and worker nodes automatically discover and keep track of the total number of workers in the system.
- - Error Handling and Robustness: Enhance the system by implementing comprehensive error handling, fault tolerance mechanisms and automatic recovery from node crashes.
+ - Automated Worker Discovery: In the current implementation of the "Chain Message Passing" task, the user must manually input the total number of workers when launching each worker node. Future work will focus on eliminating this manual step by developing a solution where the master and worker nodes automatically discover and keep track of the total number of workers in the system.
+ - Error Handling and Robustness: Enhance the system by implementing comprehensive error handling, fault tolerance mechanisms and automatic recovery from possible node crashes.
  - Scalability: Introduce techniques for scaling of worker nodes and efficiently handle various workloads to improve system performance under high demand.
  - Security Enhancements: Implement security measures such as data encryption and secure authentication to protect data integrity and prevent unauthorised access.
  - Integration with Message Queues: Implement and explore message queues and streaming platforms like Apache Kafka and RabbitMQ. These technologies can improve the scalability and reliability allowing for efficient handling of high-throughput data streams and complex message routing patterns.
